@@ -9,6 +9,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="ans"
+           fetch="https://github.com/AdvancedNetworkingSystems/" />
+
   <default revision="master"
            remote="origin"
            sync-j="4" />
@@ -21,7 +24,7 @@
   <project name="module_rs_signal_gen" path="modules/rs_signal_gen"/>
   <project name="module_gnuradio" path="modules/gnuradio"/>
   <project name="module_ni_sdr" path="modules/ni_sdr"/>
-  <project name="module_wifi" path="modules/wifi"/>
+  <project remote="ans" name="module_wifi" path="modules/wifi"/>
   <project name="module_wifi_ath" path="modules/wifi_ath"/>
   <project name="module_wifi_gnuradio" path="modules/wifi_gnuradio"/>
   <project name="module_wifi_intel" path="modules/wifi_intel"/>
